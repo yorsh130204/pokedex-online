@@ -1,1 +1,1 @@
-# manageprofessors
+# manage-professors
