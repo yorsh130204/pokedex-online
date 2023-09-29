@@ -1,0 +1,174 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: "Poppins", sans-serif;
+  min-height: 100vh;
+  width: 100vw;
+  text-align: center;
+  background: linear-gradient(90deg, #ffdf75, #7b729a);
+  color: #fff;
+  overflow-x: hidden;
+}
+h1 {
+  font-size: 4rem;
+  margin: 20px;
+}
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+input,
+button {
+  font-size: 1rem;
+  padding: 15px 20px;
+  border: none;
+}
+input {
+  font-weight: bold;
+}
+input:focus {
+  outline: none;
+}
+button {
+  background-color: #fff;
+  cursor: pointer;
+  border-radius: 0 10px 10px 0;
+}
+.poke-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 20px;
+  margin-top: 20px;
+}
+.poke-box {
+  width: 300px;
+  background-color: #fff;
+  border-radius: 15px;
+  padding: 10px;
+  color: #333;
+  font-size: 1.2rem;
+  margin: 20px;
+  margin-bottom: 40px;
+}
+.poke-box:hover {
+  border: 2px solid #ffe17d;
+  transition: all ease-out 0.4s;
+  transform: scale(1.1);
+}
+.poke-box img {
+  width: 80%;
+  margin-bottom: 10px;
+}
+.poke-box p {
+  margin: 10px auto;
+}
+.poke-box .poke-name {
+  text-transform: capitalize;
+}
+.poke-navigation {
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.nav-button {
+  cursor: pointer;
+  height: 40px;
+  width: 200px;
+  border: 1px solid white;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.nav-button:hover {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+.github-ribbon {
+  position: absolute;
+}
+.poke-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.poke-footer span {
+  margin-bottom: 15px;
+}
+.back-to-top-button {
+  cursor: pointer;
+  display: inline-block;
+  background-color: #ffce31;
+  color: #fff;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 4px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  transition: background-color 0.3s, opacity 0.5s, visibility 0.5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
+}
+.back-to-top-button:hover {
+  cursor: pointer;
+  background-color: #333;
+}
+.back-to-top-button:active {
+  background-color: #555;
+}
+.back-to-top-button.show {
+  opacity: 1;
+  visibility: visible;
+}
+.navbar {
+  background-color: #5c4c92;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar-brand img {
+  width: 200px;
+  height: auto;
+  margin-left: 5%;
+}
+.navbar-search-form {
+  margin: 0;
+  display: flex;
+  align-items: left;
+  justify-content: flex-end;
+  margin-right: 5%;
+  margin-left: auto;
+}
+#search-input {
+  color: #040464;
+  border-radius: 10px 0 0 10px;
+}
+#load-button {
+  background-color: #ffce31;
+}
+#load-button:hover {
+  cursor: pointer;
+  background-color: #333;
+}
+#load-button:active {
+  background-color: #555;
+}
+#load-button.show {
+  opacity: 1;
+  visibility: visible;
+}
