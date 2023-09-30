@@ -172,3 +172,59 @@ button {
   opacity: 1;
   visibility: visible;
 }
+@media (max-width: 768px) {
+  .navbar {
+    padding: 26px;
+  }
+  .poke-box {
+    width: 200px;
+  }
+  .poke-box img {
+    width: 60%;
+  }
+  .poke-box p {
+    font-size: 1rem;
+  }
+  .poke-box .poke-name {
+    font-size: 1.2rem;
+  }
+  .poke-container {
+    padding: 0;
+  }
+  .navbar-brand {
+    margin: auto;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    width: 20vh;
+    height: auto;
+  }
+  .navbar-brand img {
+    margin: auto;
+  }
+  .navbar-search-form {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 3vh;
+    margin-bottom: 1vh;
+  }
+  #search-input {
+    color: #040464;
+    border-radius: 10px 0 0 10px;
+  }
+  #load-button {
+    background-color: #ffce31;
+  }
+  #load-button:hover {
+    cursor: pointer;
+    background-color: #333;
+  }
+  #load-button:active {
+    background-color: #555;
+  }
+  #load-button.show {
+    opacity: 1;
+    visibility: visible;
+  }
+}
