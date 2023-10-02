@@ -208,6 +208,7 @@ button {
     justify-content: center;
     margin-top: 3vh;
     margin-bottom: 1vh;
+    width: 50vh;
   }
   #search-input {
     color: #040464;
