@@ -208,13 +208,13 @@ button {
     justify-content: center;
     margin-top: 3vh;
     margin-bottom: 1vh;
-    width: 45vh;
+    width: 35vh;
   }
   #searcg-input {
-    height: 3vh;
+    height: 5px;
   }
   #search-button {
-    height: 3vh;
+    height: 5px;
   }
   #search-input {
     color: #040464;
